@@ -9,6 +9,7 @@ namespace GameWeb
     {
         public int Calculate()
         {
+            //Unit test class
             int i = 1;
             int j = 2;
             int c = i * j;
