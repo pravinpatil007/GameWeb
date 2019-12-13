@@ -14,6 +14,8 @@ namespace GameWeb
     {
         public static void Main(string[] args)
         {
+            //This is one more test
+            Console.Write("Test");
             CreateWebHostBuilder(args).Build().Run();
         }
 
