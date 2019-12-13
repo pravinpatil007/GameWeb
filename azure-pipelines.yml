@@ -28,9 +28,3 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
-
-- task: VSTest@2
-  inputs:
-    testSelector: 'testAssemblies'
-    testAssemblyVer2: '**\*UnitTestProject1.dll'
-    searchFolder: '$(System.DefaultWorkingDirectory)'
