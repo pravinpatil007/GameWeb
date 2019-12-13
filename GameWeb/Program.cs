@@ -15,7 +15,7 @@ namespace GameWeb
         public static void Main(string[] args)
         {
             //This is one more test 123
-            Console.Write("Test 001");
+            Console.Write("Test 001.2");
             CreateWebHostBuilder(args).Build().Run();
         }
 
